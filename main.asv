@@ -29,7 +29,7 @@ title('Blurred Image');
 subplot(2,3,3);
 NOISE_NAME = "gaussian";
 NOISE_MEAN = 0;
-NOISE_VAR = 0.001;
+NOISE_VAR = 0.00l1;
 if NOISE_NAME == "gaussian"
     blurred_noisy = imnoise(blurred, NOISE_NAME, ...
                         NOISE_MEAN, NOISE_VAR);
